@@ -1,4 +1,4 @@
-# HyperOS Unlock Tool 🚀
+# HyperOS Unlock Tool Script🚀
 
 A highly optimized, zero-dependency automation suite designed to help you secure Xiaomi Bootloader Unlock permission for HyperOS (Global). 
 
