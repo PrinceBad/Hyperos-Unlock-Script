@@ -9,3 +9,10 @@ dist/
 *.spec
 __pycache__/
 *.pyc
+
+# Personal Desktop Documents & Images (Ignore for clean source code repo)
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.txt
