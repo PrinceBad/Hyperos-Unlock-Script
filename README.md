@@ -1,4 +1,4 @@
-# HyperOS Unlock Tool — Premium Ultimate Edition 🚀
+# HyperOS Unlock Tool 🚀
 
 A highly optimized, zero-dependency automation suite designed to help you secure Xiaomi Bootloader Unlock permission for HyperOS (Global). 
 
@@ -13,7 +13,7 @@ This tool synchronizes your local clock with precise Network Time Protocol (NTP)
 *   **Microsecond-Accurate NTP Sync**: Queries raw UDP packets from multiple global NTP time servers, filtering network jitter to calculate highly accurate local clock offsets.
 *   **Continuous Drift Control**: Automatically triggers a silent NTP synchronization every 10 minutes in the background to counteract Windows system clock drift.
 *   **Custom Target Scheduling**: Choose between standard **Beijing Midnight (00:00:00)** or schedule a **Custom Target Time** (in `HH:MM:SS` Beijing Time) for testing.
-*   **Premium Dark UI Aesthetics**: Styled with high-contrast, slate-dark professional flat aesthetics, colored operational status badges (`READY`, `SYNCHRONIZING`, `WAITING`, `ATTACKING`, `VERIFYING`), and smooth hover-responsive controls.
+*   **Sleek Dark UI Aesthetics**: Styled with high-contrast, slate-dark professional flat aesthetics, colored operational status badges (`READY`, `SYNCHRONIZING`, `WAITING`, `ATTACKING`, `VERIFYING`), and smooth hover-responsive controls.
 *   **Dynamic Background Audio Cues**: Features non-blocking Windows chimes (`winsound`) alerting you differently on **Success, Warnings, Errors, and Trigger releases** so you don't have to keep staring at the screen.
 *   **Persistent Diagnostics**: Automatically records all network dispatches, response delay, and operations to a local file `hyperos_unlock.log`.
 
@@ -26,7 +26,7 @@ This project is built under the **Zero-Dependency** philosophy, requiring **only
 ### Option 1: Standalone Windows Executable (.exe)
 You can run the application **without installing Python or any libraries**:
 1. Navigate to the `dist/` directory of the project folder.
-2. Double-click `HyperOS_Unlock_Tool_Premium.exe` to run immediately.
+2. Double-click `HyperOS_Unlock_Tool.exe` to run immediately.
 
 ### Option 2: Running via Python Script
 To run it using your local Python installation:

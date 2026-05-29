@@ -18,7 +18,7 @@ from tkinter import ttk
 # ==========================================
 # CONFIGURATION & GLOBAL STATE
 # ==========================================
-VERSION = "ARU_FHL_v080000_PREMIUM"
+VERSION = "ARU_FHL_v080000"
 
 NTP_SERVERS = [
     "pool.ntp.org",
@@ -648,7 +648,7 @@ def run_unlock_automation_bg(token, timeshift):
 # MODERN HOVER BUTTON CUSTOM COMPONENT
 # ==========================================
 class HoverButton(tk.Button):
-    """Premium flat button with animated color hovers."""
+    """Flat button with animated color hovers."""
     def __init__(self, master, active_bg, normal_bg, active_fg="white", normal_fg="white", *args, **kwargs):
         super().__init__(master, *args, **kwargs)
         self.active_bg = active_bg
@@ -684,7 +684,7 @@ class HoverButton(tk.Button):
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title(f"HyperOS Unlock Tool — Premium Ultimate Edition")
+        self.root.title(f"HyperOS Unlock Tool")
         self.root.geometry("1080x760")
         self.root.minsize(980, 680)
         self.root.configure(bg="#0F0F11")
@@ -755,7 +755,7 @@ class App:
         style.configure("Vertical.TScrollbar", gripcount=0, background=self.bg_entry, bordercolor=self.bg_dark, troughcolor=self.bg_dark, arrowsize=10)
 
     def build_ui(self):
-        """Creates the two-column premium operation center grid layout."""
+        """Creates the two-column operation center grid layout."""
         
         # HEADER CARD
         header_frame = tk.Frame(self.root, bg=self.bg_dark, pady=10)
