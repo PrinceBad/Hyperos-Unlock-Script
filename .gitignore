@@ -1,0 +1,11 @@
+# Credentials & Private Data
+token.txt
+timeshift.txt
+*.log
+
+# PyInstaller Build Artifacts
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
