@@ -18,7 +18,7 @@ from tkinter import ttk
 # ==========================================
 # CONFIGURATION & GLOBAL STATE
 # ==========================================
-VERSION = "ARU_FHL_v080000"
+VERSION = "1.0"
 
 NTP_SERVERS = [
     "pool.ntp.org",
@@ -778,7 +778,7 @@ class App:
         self.lbl_status_badge = tk.Label(header_frame, text="READY", font=("Segoe UI", 9, "bold"), fg="white", bg=self.accent_green, padx=8, pady=2)
         self.lbl_status_badge.pack(side="left", padx=15)
         
-        ver_lbl = tk.Label(header_frame, text=f"Version: {VERSION} | Zero-Dependency Pro", font=("Segoe UI", 9), fg=self.fg_muted, bg=self.bg_dark)
+        ver_lbl = tk.Label(header_frame, text=f"Version: {VERSION} | Zero-Dependency", font=("Segoe UI", 9), fg=self.fg_muted, bg=self.bg_dark)
         ver_lbl.pack(side="right", anchor="e")
         
         # MAIN DUAL CONTAINER
