@@ -25,13 +25,25 @@ This project is built under the **Zero-Dependency** philosophy, requiring **only
 
 ### Option 1: Standalone Windows Executable (.exe)
 You can run the application **without installing Python or any libraries**:
-1. Navigate to the `dist/` directory of the project folder.
-2. Double-click `HyperOS_Unlock_Tool.exe` to run immediately.
+1. Download the pre-compiled `HyperOS_Unlock_Tool.exe` from the **Releases** section on the GitHub repository.
+2. Double-click the executable to launch the tool immediately.
+
+*Note: If you wish to build the executable yourself:*
+1. Install PyInstaller:
+   ```bash
+   pip install pyinstaller
+   ```
+2. Build using the provided spec file:
+   ```bash
+   pyinstaller HyperOS_Unlock_Tool.spec
+   ```
+3. Find the compiled `HyperOS_Unlock_Tool.exe` in the `dist/` directory.
 
 ### Option 2: Running via Python Script
 To run it using your local Python installation:
 1. Ensure you have Python 3.8 or higher installed.
-2. Execute the script in your terminal:
+2. (Linux/macOS only) Ensure `tkinter` is installed (e.g., `sudo apt install python3-tk`).
+3. Execute the script in your terminal:
    ```bash
    python HyperOS_Unlock_Script.py
    ```
