@@ -689,6 +689,17 @@ class App:
         self.root.minsize(980, 680)
         self.root.configure(bg="#0F0F11")
         
+        # Set matching window icon
+        try:
+            if getattr(sys, 'frozen', False):
+                icon_path = os.path.join(sys._MEIPASS, "icon.ico") if hasattr(sys, "_MEIPASS") else "icon.ico"
+            else:
+                icon_path = "icon.ico"
+            if os.path.exists(icon_path):
+                self.root.iconbitmap(icon_path)
+        except Exception:
+            pass
+        
         # Core data source
         self.records = TokenStorage.load_all()
         
