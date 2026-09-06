@@ -69,3 +69,5 @@ Your account cookies are highly sensitive credentials. This repository is config
 
 ## 📜 Disclaimer
 This tool is intended for personal and educational use to assist with scheduling manual actions. Please use responsibly and ensure you comply with Xiaomi's account terms of service.
+
+<!-- HyperOS Automation Engine: Fastboot and ADB protocol sequencing -->
